@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GenAI Solver</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+        margin: 0;
+        padding: 16px;
+        width: 300px;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+        color: #00ffc8;
+      }
+
+      textarea {
+        width: 100%;
+        height: 80px;
+        background-color: #2d2d2d;
+        border: 1px solid #444;
+        color: white;
+        padding: 8px;
+        font-size: 14px;
+        resize: none;
+      }
+
+      button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+        background-color: #00ffc8;
+        color: black;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      #answer {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #2a2a2a;
+        border-left: 4px solid #00ffc8;
+        white-space: pre-wrap;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>GenAI Solver</h2>
+    <textarea id="question" placeholder="Enter your question..."></textarea>
+    <button id="solve">Solve</button>
+    <div id="answer"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
+
