@@ -1,7 +1,7 @@
 
-# 🔍 LogiQ.AI – Chrome Extension for Instant AI-Powered Question Solving
+# 🔍 <img width="50" height="50" alt="icon" src="https://github.com/user-attachments/assets/2c92611f-9996-4d6b-b52a-e9dd8978934f" />LogiQ.AI – Chrome Extension for Instant AI-Powered Question Solving
 
-![LogiQ.AI Banner](https://your-banner-image-url.com) <!-- Optional: add banner later -->
+<!-- Optional: add banner later -->
 
 LogiQ.AI is a lightweight Chrome extension built to solve math, science, GK, and coding questions directly from your browser popup. Paste your question or input it manually — and get instant AI-powered answers using LangChain + Groq.
 
